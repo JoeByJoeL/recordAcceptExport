@@ -16,7 +16,7 @@ while True:
         os.system("cls")
         first_time = False
         print("Recording. Press s to stop.")
-        audio_data = sd.rec(60 * 44100, 44100, 2, 'int16')
+        audio_data = sd.rec(600 * 44100, 44100, 2, 'int16')
 
     if keyboard.is_pressed('s'):
         first_time = True
