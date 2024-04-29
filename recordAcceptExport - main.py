@@ -8,7 +8,7 @@ import time
 recorded_audio = []
 first_time = True
 
-threshold = 1000
+threshold = 1
 
 while True:
     if first_time:
